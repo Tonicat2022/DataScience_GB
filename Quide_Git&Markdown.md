@@ -29,3 +29,9 @@ Tables       | It is                 | Cool |
 | Colunm 3     | right alignment    | 100% |
 | Colunm 2     | center alignment |   $12 |
 | : in text  | it is about alignment         |    0,11
+
+## Git Help
+* [Настройка репозитория](https://www.atlassian.com/ru/git/tutorials/setting-up-a-repository "Настройка репозитория")
+* [Сохранение изменений](hhttps://www.atlassian.com/ru/git/tutorials/saving-changes "Сохранение изменений")
+* [Проверка репозитория](https://www.atlassian.com/ru/git/tutorials/inspecting-a-repository "Проверка репозитория")
+* [Отмена изменений](https://www.atlassian.com/ru/git/tutorials/undoing-changes "Отмена изменений")
