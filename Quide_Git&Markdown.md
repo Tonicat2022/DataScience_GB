@@ -11,4 +11,21 @@
 5. To see your versions (commits) launch command  **_git log_**
 6. By command  **_git checkout ####_**, whrer #### first four numbers of the needed commit *(needed version of the file)*
 7. To go back to main version launch command  **_git checkout master_**
-8. To see difference between versions you may launch command **_git diff_** to difference vs previous or **_git diff ####1 ####2_**, where **_####1 and  ####2_** numbers of commits
+8. To see difference between versions you may launch command **_git diff_** to difference vs previous or **_git diff ####1 ####2_**, where **_####1 and  ####2_** numbers of comparable commits
+
+## Markdown
+1. [Usual link](https://www.google.com)
+2. [Usual link in title](https://github.com/sandino/Markdown-Cheatsheet "Markdown instruction")
+* list without numbers
+* Also you may add link to a pictures:
+
+Pictures - GIT lifehacks:  
+![alt-текст](https://static13.tgcnt.ru/posts/_0/41/41e1fa8da554e72980fb7f7254ccaa1d.jpg)
+
+* tables:
+
+Tables       | It is                 | Cool |
+| ------------- |:------------------:| -----:|
+| Colunm 3     | right alignment    | 100% |
+| Colunm 2     | center alignment |   $12 |
+| : in text  | it is about alignment         |    0,11
