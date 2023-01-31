@@ -14,7 +14,7 @@
 8. To see difference between versions you may launch command **_git diff_** to difference vs previous or **_git diff ####1 ####2_**, where **_####1 and  ####2_** numbers of comparable commits
 *  try to make mistake - Conflikt Continue
 * new vetka3 was created - need to add some meaniningful instead of ...
-
+* or maybe continue to work with old version
 
 
 
