@@ -12,6 +12,10 @@
 6. By command  **_git checkout ####_**, whrer #### first four numbers of the needed commit *(needed version of the file)*
 7. To go back to main version launch command  **_git checkout master_**
 8. To see difference between versions you may launch command **_git diff_** to difference vs previous or **_git diff ####1 ####2_**, where **_####1 and  ####2_** numbers of comparable commits
+*  Continue to work...
+
+
+
 
 ## Markdown
 1. [Usual link](https://www.google.com)
