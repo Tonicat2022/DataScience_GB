@@ -15,6 +15,9 @@
 *  try to make mistake - Conflikt Continue
 * new vetka3 was created - need to add some meaniningful instead of ...
 * or maybe continue to work with old version
+* git clone https://github.com/Tonicat2022/seminar03.02.23_form_Arkhip.git to work with shared repositorium
+* cd.\name of directory
+* git push --set-upstream origin name_of_branch to change branch to upload
 
 
 
