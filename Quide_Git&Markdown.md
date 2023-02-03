@@ -37,7 +37,7 @@ Tables       | It is                 | Cool |
 
 ## Git Help
 * [Настройка репозитория](https://www.atlassian.com/ru/git/tutorials/setting-up-a-repository "Настройка репозитория")
-* [Сохранение изменений](hhttps://www.atlassian.com/ru/git/tutorials/saving-changes "Сохранение изменений")
+* [Сохранение изменений](https://www.atlassian.com/ru/git/tutorials/saving-changes "Сохранение изменений")
 * [Проверка репозитория](https://www.atlassian.com/ru/git/tutorials/inspecting-a-repository "Проверка репозитория")
 * [Отмена изменений](https://www.atlassian.com/ru/git/tutorials/undoing-changes "Отмена изменений")
 * [Video tutorial](https://vimeo.com/showcase/5616060 "Video tutorial")
