@@ -45,3 +45,8 @@ Tables       | It is                 | Cool |
 * [Отмена изменений](https://www.atlassian.com/ru/git/tutorials/undoing-changes "Отмена изменений")
 * [Video tutorial](https://vimeo.com/showcase/5616060 "Video tutorial")
 * [Ссылка на тренажер git](https://learngitbranching.js.org/?locale=ru_RU)
+* 
+* ## Dotnet
+* **_dotnet_** --info to difine is it install properly
+* **_dotnet new console_** to create new project
+* **_dotnet run_** to run application in current folder
