@@ -1,13 +1,13 @@
 ﻿Console.Clear();
-Console.BufferHeight = 60;
+Console.BufferHeight = 60; // to increase buffer for SetCursorPosition -> Top increase
 // Console.SetCursorPosition(1,1);
 // Console.WriteLine("*");
 int xa = 40; int ya = 1;
 int xb = 1; int yb = 30;
-int xc = 800; int yc = 30;
-Console.SetCursorPosition(xa, ya); Console.WriteLine(".");
-Console.SetCursorPosition(xb, yb); Console.WriteLine(".");
-Console.SetCursorPosition(xc, yc); Console.WriteLine(".");
+int xc = 80; int yc = 30;
+Console.SetCursorPosition(xa, ya); Console.WriteLine("*");
+Console.SetCursorPosition(xb, yb); Console.WriteLine("*");
+Console.SetCursorPosition(xc, yc); Console.WriteLine("*");
 int x = xa, y = ya, count = 0;
 while(count < 500)
 {
@@ -30,6 +30,6 @@ while(count < 500)
         y = (y + yc) / 2;
     }
     Console.SetCursorPosition(x, y);
-    Console.WriteLine(".");
+    Console.WriteLine("*");
     count += 1;
 };
