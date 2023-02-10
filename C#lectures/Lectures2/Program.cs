@@ -6,7 +6,8 @@
 //string username = Console.ReadLine();
 //Console.Write("Привет, ");
 //Console.WriteLine(username);
-// Console.WriteLine("Input please first number");
+Console.Clear();
+Console.WriteLine("Input please first number");
 double first_number = new Random().Next(0,20);
 // Console.WriteLine("Input please second number");
 double second_number = new Random().Next(10,30);
