@@ -19,11 +19,22 @@
 // int num2 = Convert.ToInt32(Console.ReadLine());
 // int square = num2 * num2;
 // if (num == square)
-//     {
-//     Console.WriteLine($"{num} is  square of the {num2}");
-//     }
+//{     Console.WriteLine($"{num} is  square of the {num2}");}
 // else
-//     {
-//     Console.WriteLine($"{num} is NOT square of the {num2}");
-//     };
+//{     Console.WriteLine($"{num} is NOT square of the {num2}");};
     // fourth task
+// Console.Clear();
+// Console.WriteLine("Please input Number");
+// int N = Convert.ToInt32(Console.ReadLine());
+// int current = N * (-1);
+// while (current <= N)
+// {
+//     Console.Write(current +",");
+//     current++;
+// };
+    // fifth task
+Console.Clear();
+Console.WriteLine("Please input Number");
+int N = Convert.ToInt32(Console.ReadLine());
+int rest100 = N % 100; Console.WriteLine($"the rest of {N} divided by 100 is {rest100}");
+int rest10 = rest100 % 10; Console.WriteLine($"the rest of {rest100} divided by 10 is {rest10}");
