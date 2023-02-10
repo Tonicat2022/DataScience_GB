@@ -14,9 +14,7 @@ int friend = int.Parse(Console.ReadLine());
 while (check !=1) // checking for correct friend number
 {
     if (friend == 1 | friend == 2)
-    {
-        check = 1;
-    }
+    {check = 1;}
     else
     {
     Console.WriteLine("Please input only 1 or 2 for Friend with the Dog = ");
