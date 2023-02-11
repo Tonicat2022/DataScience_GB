@@ -52,4 +52,3 @@ Tables       | It is                 | Cool |
 * **_dotnet run_** to run application in current folder
 
 ## ChatGPT API_key
-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
