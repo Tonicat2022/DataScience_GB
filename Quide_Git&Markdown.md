@@ -50,3 +50,6 @@ Tables       | It is                 | Cool |
 * **_dotnet_** --info to difine is it install properly
 * **_dotnet new console_** to create new project
 * **_dotnet run_** to run application in current folder
+
+## ChatGPT API_key
+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
