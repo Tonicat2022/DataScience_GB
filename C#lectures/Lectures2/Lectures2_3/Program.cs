@@ -19,7 +19,8 @@ while (index < n )
     if(array[index] == find)
     {
         Console.WriteLine(index);
-        break; //прерви 
+        break; //прерви - чтобы остановить когда есть первое совпадение
     }
+    // index = index +1
     index ++;
 }
