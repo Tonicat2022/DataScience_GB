@@ -22,9 +22,8 @@ void toFillingArray (int[] Any_array)// filling of array by random numbers, base
         Any_array[index] = new Random().Next(bottom_for_Random,top_for_Random);
         index++;
     };
-
-
 };
+
 void toPrintingArray (int[] Any_array)// filling of array by random numbers, based on requested assumptions
 {
     int index = 0;
@@ -39,23 +38,24 @@ void toPrintingArray (int[] Any_array)// filling of array by random numbers, bas
 void Find_Index_By_Value (int[] Any_array, int find_value)
 {
     int index = 0;
-    int searched_index = -1;
+    int searched_index = -1; // initial index of position
     while( index < Any_array.Length)
     {
         if(Any_array[index] == find_value)
         {
             searched_index = index;
             Console.WriteLine($" {searched_index} is position of {find_value} in Array");
-            break;
+            break;// to stop cycle after first match
         };
         index++;
     };
-    if (searched_index == -1)
+    if (searched_index == -1) // if no matching in all array
     {
         Console.WriteLine($" there is NO {find_value} member in Array");
     };
 }
+
 toFillingArray(new_Array);
 toPrintingArray(new_Array);
-Console.WriteLine($"");
+Console.WriteLine($"");// to add empty line
 Find_Index_By_Value(new_Array, Value_to_Find);
