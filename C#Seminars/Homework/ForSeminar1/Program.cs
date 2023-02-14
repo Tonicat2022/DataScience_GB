@@ -36,11 +36,11 @@
 // int rest = n%2;
 // if (rest ==0)
 // {
-//   Console.WriteLine($"Number {n} is devided by 2 without any rest!!!");  
+//   Console.WriteLine($"Number {n} is devided by 2 without any rest!!!: - EVEN");  
 // }
 // else
 // {
-//   Console.WriteLine($"Number {n} is devided by 2 with rest: {rest}");
+//   Console.WriteLine($"Number {n} is devided by 2 with rest: {rest}: - NOT EVEN" );
 // };
     // task 8
 Console.Clear();
