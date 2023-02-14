@@ -1,19 +1,40 @@
 ﻿    // Task10
-Console.Clear();
+// Console.Clear();
+
+// Console.WriteLine("Please input three-digit number");
+// int n = Convert.ToInt32(Console.ReadLine());
+
+// int LengthOfDigit (int num)
+// {
+//     int index = 0;
+//         while (num % 10 >=1)
+//     {
+//         num = num /10;
+//         index++;
+//     }
+//     return index;
+// }
+// int Length = LengthOfDigit(n);
 
 // void MiddleDigit (int num)
 // {
-//     if (Check3Digit(num) == Convert.ToInt32(3);
-//     Console.WriteLine("{num} is NOT three-digit number");
-//     break;
-// }
-
-// void numDiv10 (int num)
-// {
-// int result = num % 10;
+//     if (Length != 3)
+//     {
+//     Console.WriteLine($"{num} is NOT three-digit number");
+//     }
+//     else
+//     {
+//     Console.WriteLine($"{num % 100 / 10} is the middle digit");
+//     };
 // };
 
-Console.WriteLine("Please input three-digit number");
+// Console.WriteLine(LengthOfDigit(n));
+// MiddleDigit(n);
+
+    // Task10
+Console.Clear();
+
+Console.WriteLine("Please input any number");
 int n = Convert.ToInt32(Console.ReadLine());
 
 int LengthOfDigit (int num)
@@ -28,17 +49,16 @@ int LengthOfDigit (int num)
 }
 int Length = LengthOfDigit(n);
 
-void MiddleDigit (int num)
+void ThirdNumberFormRight (int num)
 {
-    if (Length != 3)
+    if (Length < 3)
     {
-    Console.WriteLine($"{num} is NOT three-digit number");
+        Console.WriteLine($"There is NOT third digit in {num}");
     }
     else
     {
-    Console.WriteLine($"{num % 100 / 10} is the middle digit");
+        Console.WriteLine($"{num % 1000 / 100} is third digit from right");
     };
 };
-
-Console.WriteLine(LengthOfDigit(n));
-MiddleDigit(n);
+Console.WriteLine($"{n} is {LengthOfDigit(n)} digit number");
+ThirdNumberFormRight(n);
