@@ -1,13 +1,3 @@
-﻿// Console.BufferHeight = 60;
-using System;
-
-class Sample
-{
-    public static void Main()
-    {
-    Console.WriteLine("The current buffer height is {0} rows.",
-                      Console.BufferHeight);
-    Console.WriteLine("The current buffer width is {0} columns.",
-                      Console.BufferWidth);
-    }
-}
+﻿Console.Clear;
+int {} array = new int[10];
+Console.WriteLine(array[1],array[2]);
