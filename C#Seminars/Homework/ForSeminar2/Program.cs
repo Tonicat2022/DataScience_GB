@@ -1,18 +1,44 @@
-﻿Console.Clear();
-Console.WriteLine("Please input Number");
-int n = Convert.ToInt32(Console.ReadLine());
-int current = 2;
-if(n < 2)
-{
-    Console.WriteLine($"Where no positive even numbers between 1 and {n} ");    
-}
-else
-{   
-    Console.Write($"Positive Even numbers between 1 and {n} are: ");
-    while (current <= n)
-    {  
-        Console.Write($"{current} ");
-        current= current + 2;
-    };
+﻿    // Task10
+Console.Clear();
 
+// void MiddleDigit (int num)
+// {
+//     if (Check3Digit(num) == Convert.ToInt32(3);
+//     Console.WriteLine("{num} is NOT three-digit number");
+//     break;
+// }
+
+// void numDiv10 (int num)
+// {
+// int result = num % 10;
+// };
+
+Console.WriteLine("Please input three-digit number");
+int n = Convert.ToInt32(Console.ReadLine());
+
+int LengthOfDigit (int num)
+{
+    int index = 0;
+        while (num % 10 >=1)
+    {
+        num = num /10;
+        index++;
+    }
+    return index;
+}
+int Length = LengthOfDigit(n);
+
+void MiddleDigit (int num)
+{
+    if (Length != 3)
+    {
+    Console.WriteLine($"{num} is NOT three-digit number");
+    }
+    else
+    {
+    Console.WriteLine($"{num % 100 / 10} is the middle digit");
+    };
 };
+
+Console.WriteLine(LengthOfDigit(n));
+MiddleDigit(n);

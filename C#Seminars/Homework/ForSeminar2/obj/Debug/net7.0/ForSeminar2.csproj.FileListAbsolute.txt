@@ -13,3 +13,18 @@ C:\Users\tonic\OneDrive\DataScience_GB\C#Seminars\Homework\ForSeminar2\obj\Debug
 C:\Users\tonic\OneDrive\DataScience_GB\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\ForSeminar2.pdb
 C:\Users\tonic\OneDrive\DataScience_GB\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\ForSeminar2.genruntimeconfig.cache
 C:\Users\tonic\OneDrive\DataScience_GB\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\ref\ForSeminar2.dll
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\ForSeminar2.csproj.AssemblyReference.cache
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\ForSeminar2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\ForSeminar2.AssemblyInfoInputs.cache
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\ForSeminar2.AssemblyInfo.cs
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\ForSeminar2.csproj.CoreCompileInputs.cache
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\ForSeminar2.dll
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\refint\ForSeminar2.dll
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\ForSeminar2.pdb
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\bin\Debug\net7.0\ForSeminar2.exe
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\bin\Debug\net7.0\ForSeminar2.deps.json
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\bin\Debug\net7.0\ForSeminar2.runtimeconfig.json
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\bin\Debug\net7.0\ForSeminar2.dll
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\bin\Debug\net7.0\ForSeminar2.pdb
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\ForSeminar2.genruntimeconfig.cache
+C:\Users\Anton.Tselykovskiy\OneDrive - Groupe Limagrain Holding\Desktop\GB_Education\C#Seminars\Homework\ForSeminar2\obj\Debug\net7.0\ref\ForSeminar2.dll

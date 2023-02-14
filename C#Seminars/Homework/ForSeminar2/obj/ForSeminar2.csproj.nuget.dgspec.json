@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tonic\\OneDrive\\DataScience_GB\\C#Seminars\\Homework\\ForSeminar2\\ForSeminar2.csproj": {}
+    "C:\\Users\\Anton.Tselykovskiy\\OneDrive - Groupe Limagrain Holding\\Desktop\\GB_Education\\C#Seminars\\Homework\\ForSeminar2\\ForSeminar2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tonic\\OneDrive\\DataScience_GB\\C#Seminars\\Homework\\ForSeminar2\\ForSeminar2.csproj": {
+    "C:\\Users\\Anton.Tselykovskiy\\OneDrive - Groupe Limagrain Holding\\Desktop\\GB_Education\\C#Seminars\\Homework\\ForSeminar2\\ForSeminar2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tonic\\OneDrive\\DataScience_GB\\C#Seminars\\Homework\\ForSeminar2\\ForSeminar2.csproj",
+        "projectUniqueName": "C:\\Users\\Anton.Tselykovskiy\\OneDrive - Groupe Limagrain Holding\\Desktop\\GB_Education\\C#Seminars\\Homework\\ForSeminar2\\ForSeminar2.csproj",
         "projectName": "ForSeminar2",
-        "projectPath": "C:\\Users\\tonic\\OneDrive\\DataScience_GB\\C#Seminars\\Homework\\ForSeminar2\\ForSeminar2.csproj",
-        "packagesPath": "C:\\Users\\tonic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tonic\\OneDrive\\DataScience_GB\\C#Seminars\\Homework\\ForSeminar2\\obj\\",
+        "projectPath": "C:\\Users\\Anton.Tselykovskiy\\OneDrive - Groupe Limagrain Holding\\Desktop\\GB_Education\\C#Seminars\\Homework\\ForSeminar2\\ForSeminar2.csproj",
+        "packagesPath": "C:\\Users\\Anton.Tselykovskiy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anton.Tselykovskiy\\OneDrive - Groupe Limagrain Holding\\Desktop\\GB_Education\\C#Seminars\\Homework\\ForSeminar2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tonic\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Anton.Tselykovskiy\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
