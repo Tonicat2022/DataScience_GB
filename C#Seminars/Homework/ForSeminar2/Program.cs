@@ -64,27 +64,46 @@
 // ThirdNumberFormRight(n);
 
  // Task15
+// Console.Clear();
+
+// void IfWeekend ( int num)
+// {
+//     if (num <8 && num >0) // checking for appropriate number
+//     {
+//         if( num == 6 || num == 7)
+//         {
+//             Console.WriteLine($"Great!!! it is WEEKEND");
+//         }
+//         else
+//         {
+//             Console.WriteLine($"Unfortunatelly it is working day ((((");
+//         }
+//     }
+//     else
+//     {
+//         Console.WriteLine($"{num} is not a appropriate number");
+//     }
+// }
+
+// Console.WriteLine("Please input number day of the week");
+// int n = Convert.ToInt32(Console.ReadLine());
+// IfWeekend(n);
+    // Test 1 Degree of the Value
 Console.Clear();
-
-void IfWeekend ( int num)
+double Degree ( double xDegree, double DegreeLevel)
 {
-    if (num <8 && num >0) // checking for appropriate number
+    double index = 0;
+    double result = 1;
+    while (index<DegreeLevel)
     {
-        if( num == 6 || num == 7)
-        {
-            Console.WriteLine($"Great!!! it is WEEKEND");
-        }
-        else
-        {
-            Console.WriteLine($"Unfortunatelly it is working day ((((");
-        }
-    }
-    else
-    {
-        Console.WriteLine($"{num} is not a appropriate number");
-    }
-}
+    result = result * xDegree;
+    index ++;
+    };
+    return result;
+};
 
-Console.WriteLine("Please input number day of the week");
-int n = Convert.ToInt32(Console.ReadLine());
-IfWeekend(n);
+Console.WriteLine("Please input Value to Degree");
+double x = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Please input degree level");
+double n = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine(Degree(x, n));
