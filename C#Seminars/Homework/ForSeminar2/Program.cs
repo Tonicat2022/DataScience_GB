@@ -89,21 +89,65 @@
 // int n = Convert.ToInt32(Console.ReadLine());
 // IfWeekend(n);
     // Test 1 Degree of the Value
-Console.Clear();
-double Degree ( double xDegree, double DegreeLevel)
+// Console.Clear();
+// double Degree ( double xDegree, double DegreeLevel)
+// {
+//     double index = 0;
+//     double result = 1;
+//     while (index<DegreeLevel)
+//     {
+//     result = result * xDegree;
+//     index ++;
+//     };
+//     return result;
+// };
+
+// Console.WriteLine("Please input Value to Degree");
+// double x = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Please input degree level");
+// double n = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine(Degree(x, n));
+
+    // Method for find Length Of Number
+// int LengthOfNumber (double num)
+// {
+//     if( num < 0) {num = - num;};
+//     int index = 0;
+//     while (num % 10 >=1)
+//     {
+//         num = num /10;
+//         index++;
+//     }
+//     return index;
+// }
+
+// Console.WriteLine("Please input any Number to findout length of Number");
+// double x = Convert.ToDouble(Console.ReadLine());
+
+// Console.WriteLine(LengthOfNumber(x));
+ // Middle of the three-digit number
+int x = 0;
+bool CheckIf3Digit (int num)
 {
-    double index = 0;
-    double result = 1;
-    while (index<DegreeLevel)
+    if (num > 99 && num < 1000)
     {
-    result = result * xDegree;
-    index ++;
-    };
-    return result;
+        return true; // yes, num is three-digit
+    }
+        return false;
 };
 
-Console.WriteLine("Please input Value to Degree");
-double x = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Please input degree level");
-double n = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine(Degree(x, n));
+void MiddleDigit (int number)
+{
+    if(CheckIf3Digit(x))
+    {
+        Console.Write($"{(number / 10 ) % 10} is the middle digit in {number}");
+    }
+    else
+    {
+        Console.Write($"{number} is not Three-MiddleDigit Number");
+    }
+};
+Console.WriteLine("Please input three-digit number");
+x = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine();
+MiddleDigit(x);
