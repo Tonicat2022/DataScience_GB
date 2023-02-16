@@ -126,28 +126,69 @@
 
 // Console.WriteLine(LengthOfNumber(x));
  // Middle of the three-digit number
+// int x = 0;
+// bool CheckIf3Digit (int num)
+// {
+//     if (num > 99 && num < 1000)
+//     {
+//         return true; // yes, num is three-digit
+//     }
+//         return false;
+// };
+
+// void MiddleDigit (int number)
+// {
+//     if(CheckIf3Digit(x))
+//     {
+//         Console.Write($"{(number / 10 ) % 10} is the middle digit in {number}");
+//     }
+//     else
+//     {
+//         Console.Write($"{number} is not Three-MiddleDigit Number");
+//     }
+// };
+// Console.WriteLine("Please input three-digit number");
+// x = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine();
+// MiddleDigit(x);
+
+    // Check for Polyndrome
 int x = 0;
-bool CheckIf3Digit (int num)
+bool CheckIf5Digit (int num)
 {
-    if (num > 99 && num < 1000)
+    if (num > 9999 && num < 100000)
     {
-        return true; // yes, num is three-digit
+        return true; // yes, it is 
     }
         return false;
 };
 
-void MiddleDigit (int number)
-{
-    if(CheckIf3Digit(x))
+void CheckPolindrom (int num)
+{ 
+    if (CheckIf5Digit(x))
     {
-        Console.Write($"{(number / 10 ) % 10} is the middle digit in {number}");
+        char [] xArray = Convert.ToString(num).ToArray();
+        // int index = 0; ///for display xArray
+        // while (index < 5)
+        // {
+        //     Console.Write($"{xArray[index]};");
+        //     index ++;
+        // };
+        if (xArray[0] == xArray[4] && xArray[1] == xArray[3])
+        {
+            Console.Write($"{num} is Polindrome");
+        }
+        else
+        {
+            Console.Write($"{num} is NOT Polindrome");
+        }
     }
     else
     {
-        Console.Write($"{number} is not Three-MiddleDigit Number");
+        Console.Write($"{num} is not Five-MiddleDigit Number");
     }
-};
-Console.WriteLine("Please input three-digit number");
+}
+Console.WriteLine("Please input five-digit number");
 x = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
-MiddleDigit(x);
+CheckPolindrom(x);
