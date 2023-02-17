@@ -55,7 +55,7 @@ CheckPolindrom(x);
 // void Distance (double x1, double x2, double y1, double y2, double z1, double z2)
 // {
 //     Console.WriteLine($"1-st point is {x1};{y1};{z1}");
-//     Console.WriteLine($"1-st point is {x2};{y2};{z2}");
+//     Console.WriteLine($"2-nd point is {x2};{y2};{z2}");
 //     double result = Math.Sqrt(Math.Pow(x2-x1,2)+Math.Pow(y2-y1,2)+Math.Pow(z2-z1,2));
 //     Console.WriteLine($"Distance is {(Math.Round(result,3))}");
 // };
