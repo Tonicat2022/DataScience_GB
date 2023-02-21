@@ -111,7 +111,7 @@
 
     // examble 4
 
-int[] arr = {1,5,4,3,2,6,7,1,1};
+int[] arr = {1,5,4,3,2,6,7,9,15};
 
 void PrintArray (int[] array)
 {
@@ -138,9 +138,7 @@ void SelectionSort (int[] array)
         array[MinPostition] = temp;
     }
 }
-
 PrintArray(arr);
 Console.WriteLine();
 SelectionSort(arr);
-Console.WriteLine();
 PrintArray(arr);
