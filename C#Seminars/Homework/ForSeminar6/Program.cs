@@ -39,3 +39,22 @@
 // Console.WriteLine("");
 // int countzero = CountZero(new_Array);
 // Console.WriteLine($"{countzero} zero in array");
+
+// Task 43
+Console.WriteLine("Input please k1 of equation y = k1*x + b1");
+ int k1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input please b1 of equation y = k1*x + b1");
+ int b1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input please k2 of equation y = k2*x + b2");
+ int k2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input please b2 of equation y = k2*x + b2");
+ int b2 = Convert.ToInt32(Console.ReadLine());
+
+void toFindXY (double k1, double b1, double k2, double b2)
+{
+double x = (b2-b1)/(k1-k2);
+double y = k1*x +b1;
+Console.WriteLine($"x = {x} and y = {y}");
+}
+
+toFindXY(k1,b1,k2,b2);
