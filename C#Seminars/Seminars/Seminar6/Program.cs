@@ -68,35 +68,51 @@
 
 // Console.WriteLine($"Triangle with sides {a},{b},{c} could exist? Answer: {checkTriangle(a,b,c)}");// asking for size
 
-// task fibonachi without ...
+// // task fibonachi without ...
 
-int[] fibonachi (int size)
+// int[] fibonachi (int size)
+// {
+//     int[] newarray = new int [size];
+//     Console.WriteLine("Input please first element");
+//     newarray[0] = Convert.ToInt32(Console.ReadLine());
+//     Console.WriteLine("Input please second element");
+//     newarray[1] = Convert.ToInt32(Console.ReadLine());
+//     for(int i = 2; i < newarray.Length; i++)
+//     {
+//         newarray[i] = newarray[i-1]+newarray[i-2];
+//     }
+//     return newarray;
+// }
+
+// void toPrintingArray (int[] Any_array)
+// {
+//     int index = 0;
+//     while( index < Any_array.Length-1)
+//     {
+//         Console.Write($"{Any_array[index]}; ");
+//         index++;
+//     };
+//     Console.Write($"{Any_array[index]}.");
+// };
+
+// Console.WriteLine("Input please fibonachi size");// asking for size
+// int sizeFibonachi = Convert.ToInt32(Console.ReadLine());
+// int[] array = fibonachi(sizeFibonachi);
+// toPrintingArray(array);
+
+    // Task to convert deciminal number to two digit
+void DoubleNumber (int num) 
 {
-    int[] newarray = new int [size];
-    Console.WriteLine("Input please first element");// asking for size
-    newarray[0] = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Input please second element");// asking for size
-    newarray[1] = Convert.ToInt32(Console.ReadLine());
-    for(int i = 2; i < newarray.Length; i++)
+    string Sum = string.Empty;
+    while(num > 0)
     {
-        newarray[i] = newarray[i-1]+newarray[i-2];
-
+        Sum = num % 2 + Sum; 
+        num = num / 2;
     }
-    return newarray;
+    Console.WriteLine(Sum);
 }
 
-void toPrintingArray (int[] Any_array)
-{
-    int index = 0;
-    while( index < Any_array.Length-1)
-    {
-        Console.Write($"{Any_array[index]}; ");
-        index++;
-    };
-    Console.Write($"{Any_array[index]}.");
-};
+Console.WriteLine("Input num");
+int num = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Input please fibonachi size");// asking for size
-int sizeFibonachi = Convert.ToInt32(Console.ReadLine());
-int[] array = fibonachi(sizeFibonachi);
-toPrintingArray(array);
+DoubleNumber(num);
