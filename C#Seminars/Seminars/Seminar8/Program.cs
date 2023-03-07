@@ -153,7 +153,7 @@ int[,] ToEmplyMinCross (int[,] array)
     {   
         for( int j = 0; j < array.GetLength(1); j++)
         {
-            if (array[i,j] < array[minIPosition,minJPosition])
+            if (array[i,j] < array[minIPosition,minJPosition]) //to Find adress of minimum value
             {
                 minIPosition = i;
                 minJPosition = j;
@@ -164,7 +164,7 @@ int[,] ToEmplyMinCross (int[,] array)
     {   
         for( int j = 0; j < array.GetLength(1); j++)
         {
-            if ( i == minIPosition || j == minJPosition)
+            if ( i == minIPosition || j == minJPosition) //to Replace minimum to zero value
             {
                 new2DArray[i,j] = 0;
             }
