@@ -160,20 +160,54 @@ void print2DRandomArray(int[,] array)
     }
 }    
 
-int SumOfRowInArray (int[,] array, int row)
+int[] MembersOfRow (int[,] array, int row)
 {
-    int sumOfRow = 0;
+    int[] membersOfRow = new int[array.GetLength(1)];
     for(int j = 0; j < array.GetLength(1); j++)
     {
-        sumOfRow += array[row,j];
+        membersOfRow[j] = array[row,j];
     }
-    return sumOfRow;
+    return membersOfRow;
 }
+
+int[] MembersOfColumn (int[,] array, int column)
+{
+    int[] membersOfColumn = new int[array.GetLength(0)];
+    for(int i = 0; i < array.GetLength(0); i++)
+    {
+        membersOfColumn[i] = array[i,column];
+    }
+    return membersOfColumn;
+}
+
+int SumOfMultiplyingArray (int[] array, int[] array2)
+{
+    int sum = 0;
+    for (int i = 0; i < array.GetLength(0);i++)
+    {
+        sum += array[i]*array2[i];
+    }
+    return sum;
+}
+
+void PrintMembers(int[] array)
+{
+    Console.Write($"Members : ");
+    for( int i = 0; i < array.Length-1; i++)
+    {
+        Console.Write($"{array[i]}; ");
+    }
+    Console.Write($"{array[array.Length-1]}.");
+    Console.WriteLine("");
+}
+
 
 bool CheckIfMayMyltiplyed (int[,] array, int[,] array2)
 {
-    array.GetLength(1) == array2.GetLength(0);
+    return (array.GetLength(1) == array2.GetLength(0));
 }
+
+
 
 int[,] MultiplyiedArray (int[,] array, int[,] array2)
 {
@@ -184,11 +218,13 @@ int[,] MultiplyiedArray (int[,] array, int[,] array2)
         {
             for( int j = 0; j < result.GetLength(1); j++)
             {
-                result[i,j] = array[i,j] * array2[i,j];
+                result[i,j] = SumOfMultiplyingArray(MembersOfRow(array, i), MembersOfColumn(array2,j));
             }}
+        return result;
     }
     else
-    return null;
+    Console.WriteLine("Not possible to multuply");
+    return array;
 }
 
 Console.WriteLine("Input please number of rows for first matrix");//for first matrix
@@ -196,9 +232,9 @@ int rows = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input please number of columns for first matrix");
 int columns = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input please number of rows for second matrix");//for second matrix
-int rows1 = Convert.ToInt32(Console.ReadLine());
+int rows2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input please number of columns for second matrix");
-int columns1 = Convert.ToInt32(Console.ReadLine());
+int columns2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input please min value of member");//for both matrices
 int minValue = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input please max value of member");
@@ -209,9 +245,11 @@ int[,] myArray1 = create2DRandomArray(rows, columns, minValue, maxValue);
 int[,] myArray2 = create2DRandomArray(rows2, columns2, minValue, maxValue);
 
 Console.WriteLine("");
-print2DRandomArray(myArray);
+print2DRandomArray(myArray1);
 Console.WriteLine("");
 print2DRandomArray(myArray2);
 Console.WriteLine("");
-MinimumSumOfRowInArray(myArray);
 
+int[,] multiArray = MultiplyiedArray(myArray1, myArray2);
+print2DRandomArray(multiArray);
+Console.WriteLine("");
