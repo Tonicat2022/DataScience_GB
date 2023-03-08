@@ -254,122 +254,187 @@
 // print2DRandomArray(multiArray);
 // Console.WriteLine("");
 
-    // Task 60 Multiplying of two matix
+//     // Task 60 Multiplying of two matix
 
-int RandomNumber (int min, int max)
-{
-    int randomNumber = new Random().Next(min, max);
-    return randomNumber;
-}
+// int RandomNumber (int min, int max)
+// {
+//     int randomNumber = new Random().Next(min, max);
+//     return randomNumber;
+// }
 
-int[,,] create3DRandomArray(int rows, int columns, int levels)
-{
-    int[,,] new3DArray = new int[rows, columns, levels];
-    for(int i = 0; i < rows; i++)
-    {
-        for( int j = 0; j < columns; j++)
-        {
-            for( int k = 0; k < levels; k++)
-            {
-                new3DArray[i,j,k] =  RandomNumber(10, 99);
-            }
-        }
-    }
-    return new3DArray;
-}
+// int[,,] create3DRandomArray(int rows, int columns, int levels)
+// {
+//     int[,,] new3DArray = new int[rows, columns, levels];
+//     for(int i = 0; i < rows; i++)
+//     {
+//         for( int j = 0; j < columns; j++)
+//         {
+//             for( int k = 0; k < levels; k++)
+//             {
+//                 new3DArray[i,j,k] =  RandomNumber(10, 99);
+//             }
+//         }
+//     }
+//     return new3DArray;
+// }
 
-int[] ConvertMatixToArray(int[,,] array)
-{
-    int[] simpleArray = new int[array.GetLength(0)*array.GetLength(1)*array.GetLength(2)];
-    for(int i = 0; i < array.GetLength(0); i++)
-    {
-        for( int j = 0; j < array.GetLength(1); j++)
-        {
-            for( int k = 0; k < array.GetLength(2); k++)
-            {
-                simpleArray[i*array.GetLength(1)*array.GetLength(2)+j*array.GetLength(2)+k] = array[i,j,k];
-            }
-        }
-    }
-    return simpleArray;
-}
-
-
-void PrintMembers(int[] array) //created for checking code only
-{
-    Console.Write($"Members : ");
-    for( int i = 0; i < array.Length-1; i++)
-    {
-        Console.Write($"{array[i]}; ");
-    }
-    Console.Write($"{array[array.Length-1]}.");
-    Console.WriteLine("");
-}
-bool CheckMatch(int[] array, int n)
-{
-    bool check = false;
-    int index = 0;
-    for( int i = 0; i < array.Length; i++)
-    {
-        if( array[i] == n)
-        {
-            index += 1;
-        }
-    }
-    if(index >0)
-    {
-    check = true;
-    }
-    return check;
-}
-
-int[,,] Unique3DRandomArray(int[,,] array)
-{
-    int[,,] new3DArray = array;
-    for(int i = 0; i < array.GetLength(0); i++)
-    {
-        for( int j = 0; j < array.GetLength(1); j++)
-        {
-            for( int k = 0; k < array.GetLength(2); k++)
-            {
-                while(CheckMatch(ConvertMatixToArray(new3DArray),new3DArray[i,j,k]) is false)
-                {
-                new3DArray[i,j,k] =  RandomNumber(10, 99);
-                }
-            }
-        }
-    }
-    return new3DArray;
-}
+// int[] ConvertMatixToArray(int[,,] array)
+// {
+//     int[] simpleArray = new int[array.GetLength(0)*array.GetLength(1)*array.GetLength(2)];
+//     for(int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for( int j = 0; j < array.GetLength(1); j++)
+//         {
+//             for( int k = 0; k < array.GetLength(2); k++)
+//             {
+//                 simpleArray[i*array.GetLength(1)*array.GetLength(2)+j*array.GetLength(2)+k] = array[i,j,k];
+//             }
+//         }
+//     }
+//     return simpleArray;
+// }
 
 
-void print2DRandomArray(int[,,] array)
-{
-    for(int i = 0; i < array.GetLength(0); i++)
-    {
-        for( int j = 0; j < array.GetLength(1); j++)
-        {
-            for( int k = 0; k < array.GetLength(2); k++)
-            {
-            Console.Write($"{array[i,j,k]} ({i},{j},{k})");
-            }
-            Console.WriteLine("");
-        }
-    }
-}    
+// void PrintMembers(int[] array) //created for checking code only
+// {
+//     Console.Write($"Members : ");
+//     for( int i = 0; i < array.Length-1; i++)
+//     {
+//         Console.Write($"{array[i]}; ");
+//     }
+//     Console.Write($"{array[array.Length-1]}.");
+//     Console.WriteLine("");
+// }
+// bool CheckMatch(int[] array, int n)
+// {
+//     bool check = false;
+//     int index = 0;
+//     for( int i = 0; i < array.Length; i++)
+//     {
+//         if( array[i] == n)
+//         {
+//             index += 1;
+//         }
+//     }
+//     if(index >0)
+//     {
+//     check = true;
+//     }
+//     return check;
+// }
 
- Console.WriteLine("Input please number of rows for 3D matrix");//for first matrix
-int rows = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input please number of columns for 3D matrix");
-int columns = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input please number of levels for 3D matrix");
-int levels = Convert.ToInt32(Console.ReadLine());
+// int[,,] Unique3DRandomArray(int[,,] array)
+// {
+//     int[,,] new3DArray = array;
+//     for(int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for( int j = 0; j < array.GetLength(1); j++)
+//         {
+//             for( int k = 0; k < array.GetLength(2); k++)
+//             {
+//                 while(CheckMatch(ConvertMatixToArray(new3DArray),new3DArray[i,j,k]) is false)
+//                 {
+//                 new3DArray[i,j,k] =  RandomNumber(10, 99);
+//                 }
+//             }
+//         }
+//     }
+//     return new3DArray;
+// }
 
-int[,,] my3DArray = create3DRandomArray(rows, columns, levels);
-// print2DRandomArray(my3DArray);
 
-// PrintMembers(ConvertMatixToArray(my3DArray));
+// void print2DRandomArray(int[,,] array)
+// {
+//     for(int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for( int j = 0; j < array.GetLength(1); j++)
+//         {
+//             for( int k = 0; k < array.GetLength(2); k++)
+//             {
+//             Console.Write($"{array[i,j,k]} ({i},{j},{k})");
+//             }
+//             Console.WriteLine("");
+//         }
+//     }
+// }    
 
-int[,,] unique3DArray = Unique3DRandomArray(my3DArray);
-print2DRandomArray(unique3DArray);
-PrintMembers(ConvertMatixToArray(unique3DArray));
+//  Console.WriteLine("Input please number of rows for 3D matrix");//for first matrix
+// int rows = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input please number of columns for 3D matrix");
+// int columns = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input please number of levels for 3D matrix");
+// int levels = Convert.ToInt32(Console.ReadLine());
+
+// int[,,] my3DArray = create3DRandomArray(rows, columns, levels);
+// // print2DRandomArray(my3DArray);
+
+// // PrintMembers(ConvertMatixToArray(my3DArray));
+
+// int[,,] unique3DArray = Unique3DRandomArray(my3DArray);
+// print2DRandomArray(unique3DArray);
+// PrintMembers(ConvertMatixToArray(unique3DArray));
+
+
+    // Task 62 Multiplying of two matix
+// int[] MembersOfRow (int[,] array, int row)
+// {
+//     int[] membersOfRow = new int[array.GetLength(1)];
+//     for(int j = 0; j < array.GetLength(1); j++)
+//     {
+//         membersOfRow[j] = array[row,j];
+//     }
+//     return membersOfRow;
+// }
+
+// int[] MembersOfColumn (int[,] array, int column)
+// {
+//     int[] membersOfColumn = new int[array.GetLength(0)];
+//     for(int i = 0; i < array.GetLength(0); i++)
+//     {
+//         membersOfColumn[i] = array[i,column];
+//     }
+//     return membersOfColumn;
+// }
+// int IsEmptyMemberInRow (int[] array)
+// {
+//     int count = 0;
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         if (array[i] >0)
+//         {
+//             count += 1;
+//         }
+//     }
+//     return count;
+// }
+
+
+
+
+
+// int[,] create3DRandomArray(int rows, int columns)
+// {
+//     int[,] new2dArray = new int[rows, columns];
+//     for(int n = 0; n < rows*columns; n++)
+//     {
+//         int i = 0;
+//         int j = 0;
+//         while(n<columns)
+//         {
+//             for(j = 0; j < columns; j++)
+//             {
+//                 new2dArray[i,j] = n;
+//             }
+//         }
+//         while(n>columns)
+//         {
+//             if(IsEmptyMemberInRow(MembersOfColumn(new2dArray,n)) == 0)}
+//         }
+//     }
+//     return new3DArray;
+// }
+
+// /  Console.WriteLine("Input please number of rows for 3D matrix");//for first matrix
+// int rows = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input please number of columns for 3D matrix");
+// int columns = Convert.ToInt32(Console.ReadLine());
