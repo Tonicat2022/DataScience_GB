@@ -48,9 +48,9 @@ int Akkerman (int m, int n)
     else return 0;
 }
 
-Console.WriteLine("Enter M of numbers to sum: ");
+Console.WriteLine("Enter M parametr of Akkreman function: ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Enter N of numbers to sum: ");
+Console.WriteLine("Enter N parametr of Akkreman function: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine(Akkerman(m, n));
