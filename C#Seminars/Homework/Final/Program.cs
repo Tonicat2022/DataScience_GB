@@ -29,7 +29,7 @@
 
 // Console.WriteLine(SumFromNToM(a, b));
 
-// task 68 - Summ from N to M 
+// task 68 - Akkerman function calculation 
 
 int Akkerman (int m, int n)
 {
