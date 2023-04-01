@@ -51,4 +51,6 @@ Tables       | It is                 | Cool |
 * **_dotnet new console_** to create new project
 * **_dotnet run_** to run application in current folder
 
-## ChatGPT API_key
+## Online plots
+* [Desmos.com](https://www.desmos.com/?lang=ru "Desmos.com")
+* [wolframalpha.com](https://www.wolframalpha.com/input?i=plot+x%5E2 "wolframalpha.com")
