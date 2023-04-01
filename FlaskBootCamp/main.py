@@ -13,5 +13,9 @@ def index():
     return "<h2>It is my first website<h2><br><a href='/'>Back to Homepage</a>"
 
 
+@app.route('/index/<x>/<y>')
+def sumOnWeb(x,y):
+    return f"Result of sum {x} and {y} is : {float(x)+float(y)}"
+
 if __name__ == '__main__':
     app.run()
