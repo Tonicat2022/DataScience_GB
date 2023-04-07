@@ -25,25 +25,36 @@
 #     a = int(input('please enter total quantity of shadoof'))
 # print(f"{a} -> {int(a/6)} {int(a/6*4)} {int(a/6)}")
 
-# task 6
+# # task 6
 
-a = int(input('please enter 6-digit number'))
-while a < 100000 or a > 999999:
-    print("Entered not 6-digit number")
-    a = int(input('please enter 6-digit number'))
-    
-leftPart = a/1000
-rightPart = a % 1000
+# a = int(input('please enter 6-digit number'))
+# while a < 100000 or a > 999999:
+#     print("Entered not 6-digit number")
+#     a = int(input('please enter 6-digit number'))
+
+# leftPart = a/1000
+# rightPart = a % 1000
 
 
-def sumOfDigit(any):
-    x = int(any / 100)
-    y = int((any / 10) % 10)
-    z = int((any % 100) % 10)
-    sum = x+y+z
-    return sum
+# def sumOfDigit(any):
+#     x = int(any / 100)
+#     y = int((any / 10) % 10)
+#     z = int((any % 100) % 10)
+#     sum = x+y+z
+#     return sum
 
-if sumOfDigit(leftPart) == sumOfDigit(rightPart):
-    print("You have got Happy ticket!")
+# if sumOfDigit(leftPart) == sumOfDigit(rightPart):
+#     print("You have got Happy ticket!")
+# else:
+#     print("No, try again next time")
+
+# task 8
+
+n = int(input('please input first side :'))
+m = int(input('please input side side :'))
+k = int(input('please input pieces of chokolate you want to get :'))
+
+if (k%n == 0 and k/n<m) or (k%m ==0 and k/m<n):
+    print('yes')
 else:
-    print("No, try again next time")
+    print('no')
