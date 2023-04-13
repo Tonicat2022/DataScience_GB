@@ -1,3 +1,15 @@
+#  # task 10
+# n = int(input('please number of digit'))
+# from random import randint
+# list = [randint(0,1) for i in range(n)] # to generate list - 0 and 1 equal to different side a coin
+# print(list)
+# sum = 0
+# for i in range(0,n):
+#     sum += list[i]
+# if sum > (n-sum):
+#     sum = n-sum
+# print(f"{sum} minimal flips to convert all coins in the same way")
+
 # # task 12 v1
 
 # s = int(input('please enter sum of numbers'))
