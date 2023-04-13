@@ -58,3 +58,17 @@
 #     print(f"x = {x} and y = {y}")
 # else:
 #     print(f"There is no dicision")
+
+
+# # task 14
+n = int(input('please enter maximum number of even 2'))
+def even(even2):
+    result = 1
+    for i in range(0,even2):
+        result = result*2
+    return result
+
+x = 0
+while even(x)<n:
+    print(even(x))
+    x += 1
