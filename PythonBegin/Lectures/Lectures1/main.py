@@ -10,7 +10,9 @@
 # b = input("input second string")
 # print(a + b)
 
-c = 5.89
-print(c,type(c))
-c = int(c)
-print(c,type(c))
+# c = 5.89
+# print(c,type(c))
+# c = int(c)
+# print(c,type(c))
+
+    
