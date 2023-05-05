@@ -28,7 +28,11 @@ git config --global user.email "anton.tselykovskiy@gmail.com"
 ```
 В примере выше "config" будет являться командой, а "--global" будет уже флагом команды. Он вносит изменения в работу команды. 
 
+клонируем репозиторий на локальную машину
+git clone https://github.com/Tonicat2022/DataScience_GB
+
 после можно проверить текущую версию git через команду 
+
 ```
 git version
 ```
