@@ -23,8 +23,8 @@
 При первом использовании Git необходимо представиться
 Для этого нужно ввести в терменале две команды:
 ```
-git config --global user.name «Ваше имя английскими буквами»
-git config --global user.email "ваша почта@example.com"
+git config --global user.name «Tonicat2022»
+git config --global user.email "anton.tselykovskiy@gmail.com"
 ```
 В примере выше "config" будет являться командой, а "--global" будет уже флагом команды. Он вносит изменения в работу команды. 
 
